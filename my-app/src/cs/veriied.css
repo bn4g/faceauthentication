@@ -1,0 +1,17 @@
+.votingprocess{
+
+    width: 100%;
+    height: 100%;
+    background-image: url("../photos//Screenshot\ \(2923\)_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -1,0 +1,86 @@
+.verification{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url("../photos//Screenshot\ \(2923\)_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    
+}
+
+#webcamcontent
+{
+    
+  width: 400px;
+  height: 400px;
+
+}
+#verificationstatus
+{
+    background-color: chocolate;
+    width: 400px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: cornsilk;
+    font-family:  Helvetica, sans-serif;
+
+}
+h2,
+h3{
+    background-color: chocolate;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: cornsilk;
+    font-family:  Helvetica, sans-serif;
+}
+
+#validatebutton,
+#SubmitImage,
+#captureImage,
+#submitlogin
+{
+    background-color: chocolate;
+    width: 400px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: cornsilk;
+    font-family:  Helvetica, sans-serif;
+    transform: 0.3s;
+}
+#validatebutton:hover,
+#SubmitImage:hover,
+#captureImage:hover,
+#submitlogin:hover
+{
+    background-color:orange;
+
+
+}
+#validatebutton:active,
+#SubmitImage:active,
+#captureImage:active,
+#submitlogin:active
+{
+    background-color: orangered;
+
+}
+
+
